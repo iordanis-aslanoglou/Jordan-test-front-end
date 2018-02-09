@@ -34,7 +34,7 @@ h1 {
     z-index: 2;
 }
 
-.modal {
+.popup {
     max-height: calc(100% - 100px);
     position: fixed;
     top: 50%;
@@ -50,18 +50,18 @@ h1 {
     transition: .5s ease;
 }
 
-.modal h2 {
+.popup h2 {
     margin: 0;
     font-weight: 400;
     padding: 1rem;
     border-bottom: 1px solid #DDE0E7;
 }
 
-.modal p {
+.popup p {
     padding: 1rem;
 }
 
-.modal.active {
+.popup.active {
     visibility: visible;
     opacity: 1;
 }
